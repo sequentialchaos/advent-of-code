@@ -1,10 +1,12 @@
+module Day01 where
+  
 import Data.List
 import Text.Printf(printf)
 
 main = do
-  input <- readFile "01.txt"
-  printf "part 1: %d\n" (whichFloor input)
-  printf "part 2: %d\n" (basementPosition input)
+  input <- readFile "../inputs/01.txt"
+  printf "part 1: %d\n" $ whichFloor input
+  printf "part 2: %d\n" $ basementPosition input
 
 whichFloor :: [Char] -> Int
 whichFloor s = length [c | c <- s, c == '('] - length [c | c <- s, c == ')']
