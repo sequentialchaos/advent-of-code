@@ -8,21 +8,21 @@ main = do
   printf "part 1: %d\n" $ part1 input
   printf "part 2: %d\n" $ part2 input
 
-part1 input = length $ filter is_valid_1 $ makeLines input
-part2 input = length $ filter is_valid_2 $ makeLines input
+part1 input = length $ filter isValid1 $ makeLines input
+part2 input = length $ filter isValid2 $ makeLines input
 
 -- For part 1 --
 count :: Char -> String -> Int
 count c s = length $ filter (c==) s
 
-is_valid_1 :: Line -> Bool
-is_valid_1 (low, high, letter, password) = 
+isValid1 :: Line -> Bool
+isValid1 (low, high, letter, password) = 
   letter_count >= low && letter_count <= high
   where letter_count = count letter password
 
 -- For part 2 --
-is_valid_2 :: Line -> Bool
-is_valid_2 (low, high, letter, password) = 
+isValid2 :: Line -> Bool
+isValid2 (low, high, letter, password) = 
   (password!!(low-1) == letter) /= (password!!(high-1) == letter) 
 
 -- For both parts --
