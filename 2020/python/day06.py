@@ -17,11 +17,11 @@ def read_input():
 
 def count_1(group):
   sets = [set(g) for g in group]
-  return len(set(sets[0]).union(*sets[1:]))
+  return len(set.union(*sets))
 
 def count_2(group):
   sets = [set(g) for g in group]
-  return len(set(sets[0]).intersection(*sets[1:]))
+  return len(set.intersection(*sets))
 
 #####################################################################
 
