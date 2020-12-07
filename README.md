@@ -7,7 +7,7 @@
 |4|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day04.py)||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day04/solution.js)|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day04.py)|
 |5|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day05.py)||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day05/solution.js),[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/python/day05.py)|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day05.py)|
 |6|||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day06/solution.js)|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day06.py)|
-|7|||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day07/solution.js)||
+|7|||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day07/solution.js)|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day07.py)|
 |8|||||[javascript](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2019/javascript/day08/solution.js)||
 |9|||||||
 |10|||||||
