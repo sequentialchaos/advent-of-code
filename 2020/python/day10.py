@@ -20,9 +20,8 @@ def read_input():
     return [int(line) for line in f.readlines()]
 
 def count_ways(s):
-  ways = [1 if n in s else 0 for n in range(max(s)+1)]
-  for i in range(1, len(s)):
-    n = s[i]
+  ways = [1 if n == 0 else 0 for n in range(max(s)+1)]
+  for n in s:
     if n == 1:
       ways[n] = ways[n-1]
     elif n == 2:
