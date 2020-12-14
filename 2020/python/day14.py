@@ -44,7 +44,7 @@ def apply_mask_1(number, mask):
     for i,c in enumerate(binary_str)
   ]), 2)
 
-def apply_mask_2(number, mask, result=[]):
+def apply_mask_2(number, mask):
   binary_str = str(bin(number))[2:].zfill(36)
   base = ''.join([
     c if mask[i] == '0' else mask[i] 
