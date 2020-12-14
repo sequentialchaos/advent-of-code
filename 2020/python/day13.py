@@ -23,7 +23,7 @@ def part_2(s):
     x = 1
     while True:
       c = first_bus * (m*x + b)
-      if check(c, bus_ids[:j]):
+      if is_valid(c, bus_ids[:j]):
         m *= bus_ids[j-1][0]
         b = c // first_bus
         break
@@ -39,7 +39,7 @@ def read_input():
     lines = f.readlines()
     return int(lines[0]), parse(lines[1])
 
-def check(n, ids):
+def is_valid(n, ids):
   return all((n+offset) % b == 0 for b,offset in ids)
 
 #####################################################################
