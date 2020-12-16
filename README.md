@@ -16,7 +16,7 @@
 |13||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day13.py)|
 |14||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day14.py)|
 |15||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day15.py)|
-|16|||||||
+|16||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day16.py)|
 |17|||||||
 |18|||||||
 |19|||||||
