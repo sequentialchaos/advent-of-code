@@ -18,7 +18,7 @@
 |15||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day15.py)|
 |16||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day16.py)|
 |17|||||||
-|18|||||||
+|18||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day18.py)|
 |19|||||||
 |20|||||||
 |21|||||||
