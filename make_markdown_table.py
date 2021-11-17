@@ -53,14 +53,14 @@ def make_table(d):
 def make_dict():
     d = {}
     base_url = 'https://www.github.com/sequentialchaos/advent-of-code/tree/master/'
-    with open('completed.tsv') as tsv_completed:
-        csv_reader = csv.reader(tsv_completed, delimiter='\t')
+    with open('completed.csv') as csv_completed:
+        csv_reader = csv.reader(csv_completed, delimiter=',')
         line_count = 0
         for i, row in enumerate(csv_reader):
             if i == 0:
                 continue
             print(row)
-            year, day, languages = row[0], row[1], row[2].split(',')
+            year, day, languages = row[0], row[1], row[2].split(';')
             d.setdefault(year, {})
             d[year][day] = {}
             d[year][day]['languages'] = languages
