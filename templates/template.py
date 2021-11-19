@@ -1,21 +1,34 @@
+##### MAIN FUNCTION #################################################
+
+
 def main():
-  s = read_input()
-  print(f'part 1: {part_1(s)}')
-  print(f'part 2: {part_2(s)}')
+    print(f"part 1: {part_1()}")
+    print(f"part 2: {part_2()}")
 
-def part_1(s):
-  return 0
 
-def part_2(s):
-  return 0
+##### PART 1 & PART 2 ###############################################
 
-#####################################################################
 
-def read_input():
-  with open('../inputs/05.txt') as f:
-    return f.read().strip()
+def part_1():
+    return
 
-#####################################################################
+
+def part_2():
+    return
+
+
+##### PARSE INPUT ###################################################
+
+
+def parse_input():
+    with open("../inputs/xx.txt") as f:
+        return
+
+
+##### UTILITY FUNCTIONS #############################################
+
+
+##### CALL main() ###################################################
 
 if __name__ == "__main__":
-  main()
+    main()
