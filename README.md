@@ -14,8 +14,8 @@
 |11|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day11.py)|||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day11.py)|
 |12|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day12.py)|||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day12.py)|
 |13|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day13.py)|||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day13.py)|
-|14||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day14.py)|
-|15||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day15.py)|
+|14|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day14.py)|||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day14.py)|
+|15|[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2015/python/day15.py)|||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day15.py)|
 |16||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day16.py)|
 |17||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day17.py)|
 |18||||||[python](https://www.github.com/sequentialchaos/advent-of-code/tree/master/2020/python/day18.py)|
