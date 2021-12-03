@@ -35,10 +35,7 @@ def parse_input():
 
 def most_common_bit(column, diagnostic_report):
     bits = [row[column] for row in diagnostic_report]
-    if bits.count(0) > bits.count(1):
-        return 0
-    else:
-        return 1
+    return max(bits, key=lambda bit: bits.count(bit))
 
 
 def least_common_bit(column, diagnostic_report):
